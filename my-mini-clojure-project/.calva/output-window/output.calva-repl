@@ -1,0 +1,2076 @@
+clj꞉my-mini-clojure-project.core꞉> 
+; Execution error (IllegalStateException) at my-mini-clojure-project.core/eval9820 (REPL:19).
+; Attempting to call unbound fn: #'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Execution error (IllegalStateException) at my-mini-clojure-project.core/eval9822 (REPL:19).
+; Attempting to call unbound fn: #'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Execution error (IllegalStateException) at my-mini-clojure-project.core/eval9824 (REPL:19).
+; Attempting to call unbound fn: #'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Evaluating file: core.clj
+; 
+; Execution error (FileNotFoundException) at my-mini-clojure-project.core/eval9831$loading (core.clj:1).
+; Could not locate clj_http/client__init.class, clj_http/client.clj or clj_http/client.cljc on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉my-mini-clojure-project.core꞉> 
+; Evaluating file: core.clj
+; 
+; Execution error (FileNotFoundException) at my-mini-clojure-project.core/eval9840$loading (core.clj:1).
+; Could not locate clj_http/client__init.class, clj_http/client.clj or clj_http/client.cljc on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉my-mini-clojure-project.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /Users/sarahwu/Documents/codebase/cosc-452/code/genetic-programming/my-mini-clojure-project; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless)
+; Using host:port 127.0.0.1:64657 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉my-mini-clojure-project.core꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉my-mini-clojure-project.core꞉> 
+; Jack-in done.
+clj꞉my-mini-clojure-project.core꞉> 
+; {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }
+nil
+clj꞉my-mini-clojure-project.core꞉> 
+; {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }
+nil
+clj꞉my-mini-clojure-project.core꞉> 
+; {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }
+nil
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; {
+;   "error" : {
+;     "code" : 498,
+;     "details" : [ ],
+;     "message" : "Invalid token. (code = 498). []."
+;   }
+; }
+nil
+clj꞉my-mini-clojure-project.core꞉> 
+; {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }
+nil
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/access-token
+clj꞉my-mini-clojure-project.core꞉> 
+nil
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/access-token
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; {
+;   "error" : {
+;     "code" : 498,
+;     "details" : [ ],
+;     "message" : "Invalid token. (code = 498). []."
+;   }
+; }
+nil
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Response: {:cached nil, :request-time 139, :repeatable? false, :protocol-version {:name HTTP, :major 1, :minor 1}, :streaming? true, :http-client #object[org.apache.http.impl.client.InternalHttpClient 0x415a268d org.apache.http.impl.client.InternalHttpClient@415a268d], :chunked? false, :reason-phrase , :headers {Content-Type text/plain;charset=UTF-8, X-Content-Type-Options nosniff, Content-Length 107, Strict-Transport-Security max-age=63072000, Connection close, Date Tue, 08 Oct 2024 15:37:30 GMT, Vary Origin, X-XSS-Protection 1; mode=block}, :orig-content-encoding gzip, :status 200, :length 107, :body {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }, :trace-redirects []}
+; Body: {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }
+"{\n  \"error\" : {\n    \"code\" : 498,\n    \"message\" : \"Invalid token. (code = 498). [].\",\n    \"details\" : [ ]\n  }\n}"
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Syntax error reading source at (REPL:6:1).
+; Invalid number: 3NKHt6i2urmWtqOuugvr9faDiVlBV_OxaWSwYOjj3NRM5KZ_eKBEDYL4JWGpuXjrwBiq83-gPvf5w3n1zQe6J7ydk8_3bnXoOYkzJvulU-yLgGwViyqDGKR3HGOyQq-w
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Response: {:cached nil, :request-time 155, :repeatable? false, :protocol-version {:name HTTP, :major 1, :minor 1}, :streaming? true, :http-client #object[org.apache.http.impl.client.InternalHttpClient 0x687a236b org.apache.http.impl.client.InternalHttpClient@687a236b], :chunked? false, :reason-phrase , :headers {Content-Type text/plain;charset=UTF-8, X-Content-Type-Options nosniff, Content-Length 107, Strict-Transport-Security max-age=63072000, Connection close, Date Tue, 08 Oct 2024 18:17:03 GMT, Vary Origin, X-XSS-Protection 1; mode=block}, :orig-content-encoding gzip, :status 200, :length 107, :body {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }, :trace-redirects []}
+; Body: {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }
+"{\n  \"error\" : {\n    \"code\" : 498,\n    \"message\" : \"Invalid token. (code = 498). [].\",\n    \"details\" : [ ]\n  }\n}"
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/access-token
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Response: {:cached nil, :request-time 508, :repeatable? false, :protocol-version {:name HTTP, :major 1, :minor 1}, :streaming? true, :http-client #object[org.apache.http.impl.client.InternalHttpClient 0x1e920f86 org.apache.http.impl.client.InternalHttpClient@1e920f86], :chunked? true, :reason-phrase , :headers {Content-Type text/plain;charset=UTF-8, X-Content-Type-Options nosniff, Strict-Transport-Security max-age=63072000, Connection close, Transfer-Encoding chunked, ETag "126124071", Date Tue, 08 Oct 2024 18:17:21 GMT, Vary Origin, X-XSS-Protection 1; mode=block, Content-Language en}, :orig-content-encoding gzip, :status 200, :length -1, :body {
+;   "results" : [ {
+;     "paramName" : "GeoEnrichmentResult",
+;     "dataType" : "GeoEnrichmentResult",
+;     "value" : {
+;       "version" : "2.0",
+;       "FeatureSet" : [ {
+;         "displayFieldName" : "",
+;         "fieldAliases" : {
+;           "ID" : "Id",
+;           "OBJECTID" : "Object ID",
+;           "sourceCountry" : "Country code",
+;           "areaType" : "Area type",
+;           "bufferUnits" : "Buffer units",
+;           "bufferUnitsAlias" : "Buffer units alias",
+;           "bufferRadii" : "Buffer radii",
+;           "aggregationMethod" : "Aggregation method",
+;           "populationToPolygonSizeRating" : "Population to polygon size rating for the country",
+;           "apportionmentConfidence" : "Apportionment confidence for the country",
+;           "HasData" : "Has data",
+;           "C0477" : "2024 Educational Expenses",
+;           "C0478" : "2024 Tuition Fees",
+;           "C0479" : "2024 Public Elementary School",
+;           "C0480" : "2024 Private Elementary School",
+;           "C0481" : "2024 Public Junior High School",
+;           "C0482" : "2024 Private Junior High School",
+;           "C0483" : "2024 Public High School",
+;           "C0484" : "2024 Private High School",
+;           "C0485" : "2024 Public University",
+;           "C0486" : "2024 Private University",
+;           "C0487" : "2024 Preschool",
+;           "C0488" : "2024 College",
+;           "C0489" : "2024 Textbooks/Learning Materials",
+;           "C0490" : "2024 Textbooks",
+;           "C0491" : "2024 Learning Materials/References",
+;           "C0492" : "2024 Supplementary Tutoring",
+;           "C0493" : "2024 Preschool/Elementary School",
+;           "C0494" : "2024 Junior High School",
+;           "C0495" : "2024 High School/Prep School"
+;         },
+;         "spatialReference" : {
+;           "wkid" : 4326,
+;           "latestWkid" : 4326
+;         },
+;         "fields" : [ {
+;           "name" : "ID",
+;           "alias" : "Id",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "OBJECTID",
+;           "alias" : "Object ID",
+;           "type" : "esriFieldTypeOID"
+;         }, {
+;           "name" : "sourceCountry",
+;           "alias" : "Country code",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "areaType",
+;           "alias" : "Area type",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnits",
+;           "alias" : "Buffer units",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnitsAlias",
+;           "alias" : "Buffer units alias",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferRadii",
+;           "alias" : "Buffer radii",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "aggregationMethod",
+;           "alias" : "Aggregation method",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "populationToPolygonSizeRating",
+;           "alias" : "Population to polygon size rating for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "apportionmentConfidence",
+;           "alias" : "Apportionment confidence for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "HasData",
+;           "alias" : "Has data",
+;           "type" : "esriFieldTypeInteger"
+;         }, {
+;           "name" : "C0477",
+;           "alias" : "2024 Educational Expenses",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0477",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0478",
+;           "alias" : "2024 Tuition Fees",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0478",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0479",
+;           "alias" : "2024 Public Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0479",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0480",
+;           "alias" : "2024 Private Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0480",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0481",
+;           "alias" : "2024 Public Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0481",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0482",
+;           "alias" : "2024 Private Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0482",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0483",
+;           "alias" : "2024 Public High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0483",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0484",
+;           "alias" : "2024 Private High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0484",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0485",
+;           "alias" : "2024 Public University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0485",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0486",
+;           "alias" : "2024 Private University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0486",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0487",
+;           "alias" : "2024 Preschool",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0487",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0488",
+;           "alias" : "2024 College",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0488",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0489",
+;           "alias" : "2024 Textbooks/Learning Materials",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0489",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0490",
+;           "alias" : "2024 Textbooks",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0490",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0491",
+;           "alias" : "2024 Learning Materials/References",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0491",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0492",
+;           "alias" : "2024 Supplementary Tutoring",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0492",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0493",
+;           "alias" : "2024 Preschool/Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0493",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0494",
+;           "alias" : "2024 Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0494",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0495",
+;           "alias" : "2024 High School/Prep School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0495",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         } ],
+;         "features" : [ {
+;           "attributes" : {
+;             "ID" : "0",
+;             "OBJECTID" : 1,
+;             "sourceCountry" : "JP",
+;             "areaType" : "RingBuffer",
+;             "bufferUnits" : "esriMiles",
+;             "bufferUnitsAlias" : "Miles",
+;             "bufferRadii" : 1,
+;             "aggregationMethod" : "BlockApportionment:JP.Blocks;PointsLayer:JP.BlockPoints",
+;             "populationToPolygonSizeRating" : -1,
+;             "apportionmentConfidence" : -1,
+;             "HasData" : 1,
+;             "C0477" : 10599066714,
+;             "C0478" : 7785435954,
+;             "C0479" : 133161085,
+;             "C0480" : 283314668,
+;             "C0481" : 119494196,
+;             "C0482" : 639883870,
+;             "C0483" : 129106572,
+;             "C0484" : 1490328983,
+;             "C0485" : 341080061,
+;             "C0486" : 3874336015,
+;             "C0487" : 520344126,
+;             "C0488" : 254477528,
+;             "C0489" : 80179100,
+;             "C0490" : 31433852,
+;             "C0491" : 48745248,
+;             "C0492" : 2731510533,
+;             "C0493" : 1432928043,
+;             "C0494" : 831038130,
+;             "C0495" : 467544370
+;           }
+;         } ]
+;       } ]
+;     }
+;   } ],
+;   "messages" : [ ]
+; }, :trace-redirects []}
+; Body: {
+;   "results" : [ {
+;     "paramName" : "GeoEnrichmentResult",
+;     "dataType" : "GeoEnrichmentResult",
+;     "value" : {
+;       "version" : "2.0",
+;       "FeatureSet" : [ {
+;         "displayFieldName" : "",
+;         "fieldAliases" : {
+;           "ID" : "Id",
+;           "OBJECTID" : "Object ID",
+;           "sourceCountry" : "Country code",
+;           "areaType" : "Area type",
+;           "bufferUnits" : "Buffer units",
+;           "bufferUnitsAlias" : "Buffer units alias",
+;           "bufferRadii" : "Buffer radii",
+;           "aggregationMethod" : "Aggregation method",
+;           "populationToPolygonSizeRating" : "Population to polygon size rating for the country",
+;           "apportionmentConfidence" : "Apportionment confidence for the country",
+;           "HasData" : "Has data",
+;           "C0477" : "2024 Educational Expenses",
+;           "C0478" : "2024 Tuition Fees",
+;           "C0479" : "2024 Public Elementary School",
+;           "C0480" : "2024 Private Elementary School",
+;           "C0481" : "2024 Public Junior High School",
+;           "C0482" : "2024 Private Junior High School",
+;           "C0483" : "2024 Public High School",
+;           "C0484" : "2024 Private High School",
+;           "C0485" : "2024 Public University",
+;           "C0486" : "2024 Private University",
+;           "C0487" : "2024 Preschool",
+;           "C0488" : "2024 College",
+;           "C0489" : "2024 Textbooks/Learning Materials",
+;           "C0490" : "2024 Textbooks",
+;           "C0491" : "2024 Learning Materials/References",
+;           "C0492" : "2024 Supplementary Tutoring",
+;           "C0493" : "2024 Preschool/Elementary School",
+;           "C0494" : "2024 Junior High School",
+;           "C0495" : "2024 High School/Prep School"
+;         },
+;         "spatialReference" : {
+;           "wkid" : 4326,
+;           "latestWkid" : 4326
+;         },
+;         "fields" : [ {
+;           "name" : "ID",
+;           "alias" : "Id",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "OBJECTID",
+;           "alias" : "Object ID",
+;           "type" : "esriFieldTypeOID"
+;         }, {
+;           "name" : "sourceCountry",
+;           "alias" : "Country code",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "areaType",
+;           "alias" : "Area type",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnits",
+;           "alias" : "Buffer units",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnitsAlias",
+;           "alias" : "Buffer units alias",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferRadii",
+;           "alias" : "Buffer radii",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "aggregationMethod",
+;           "alias" : "Aggregation method",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "populationToPolygonSizeRating",
+;           "alias" : "Population to polygon size rating for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "apportionmentConfidence",
+;           "alias" : "Apportionment confidence for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "HasData",
+;           "alias" : "Has data",
+;           "type" : "esriFieldTypeInteger"
+;         }, {
+;           "name" : "C0477",
+;           "alias" : "2024 Educational Expenses",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0477",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0478",
+;           "alias" : "2024 Tuition Fees",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0478",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0479",
+;           "alias" : "2024 Public Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0479",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0480",
+;           "alias" : "2024 Private Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0480",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0481",
+;           "alias" : "2024 Public Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0481",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0482",
+;           "alias" : "2024 Private Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0482",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0483",
+;           "alias" : "2024 Public High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0483",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0484",
+;           "alias" : "2024 Private High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0484",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0485",
+;           "alias" : "2024 Public University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0485",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0486",
+;           "alias" : "2024 Private University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0486",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0487",
+;           "alias" : "2024 Preschool",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0487",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0488",
+;           "alias" : "2024 College",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0488",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0489",
+;           "alias" : "2024 Textbooks/Learning Materials",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0489",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0490",
+;           "alias" : "2024 Textbooks",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0490",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0491",
+;           "alias" : "2024 Learning Materials/References",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0491",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0492",
+;           "alias" : "2024 Supplementary Tutoring",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0492",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0493",
+;           "alias" : "2024 Preschool/Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0493",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0494",
+;           "alias" : "2024 Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0494",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0495",
+;           "alias" : "2024 High School/Prep School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0495",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         } ],
+;         "features" : [ {
+;           "attributes" : {
+;             "ID" : "0",
+;             "OBJECTID" : 1,
+;             "sourceCountry" : "JP",
+;             "areaType" : "RingBuffer",
+;             "bufferUnits" : "esriMiles",
+;             "bufferUnitsAlias" : "Miles",
+;             "bufferRadii" : 1,
+;             "aggregationMethod" : "BlockApportionment:JP.Blocks;PointsLayer:JP.BlockPoints",
+;             "populationToPolygonSizeRating" : -1,
+;             "apportionmentConfidence" : -1,
+;             "HasData" : 1,
+;             "C0477" : 10599066714,
+;             "C0478" : 7785435954,
+;             "C0479" : 133161085,
+;             "C0480" : 283314668,
+;             "C0481" : 119494196,
+;             "C0482" : 639883870,
+;             "C0483" : 129106572,
+;             "C0484" : 1490328983,
+;             "C0485" : 341080061,
+;             "C0486" : 3874336015,
+;             "C0487" : 520344126,
+;             "C0488" : 254477528,
+;             "C0489" : 80179100,
+;             "C0490" : 31433852,
+;             "C0491" : 48745248,
+;             "C0492" : 2731510533,
+;             "C0493" : 1432928043,
+;             "C0494" : 831038130,
+;             "C0495" : 467544370
+;           }
+;         } ]
+;       } ]
+;     }
+;   } ],
+;   "messages" : [ ]
+; }
+"{\n  \"results\" : [ {\n    \"paramName\" : \"GeoEnrichmentResult\",\n    \"dataType\" : \"GeoEnrichmentResult\",\n    \"value\" : {\n      \"version\" : \"2.0\",\n      \"FeatureSet\" : [ {\n        \"displayFieldName\" : \"\",\n        \"fieldAliases\" : {\n          \"ID\" : \"Id\",\n          \"OBJECTID\" : \"Object ID\",\n          \"sourceCountry\" : \"Country code\",\n          \"areaType\" : \"Area type\",\n          \"bufferUnits\" : \"Buffer units\",\n          \"bufferUnitsAlias\" : \"Buffer units alias\",\n          \"bufferRadii\" : \"Buffer radii\",\n          \"aggregationMethod\" : \"Aggregation method\",\n          \"populationToPolygonSizeRating\" : \"Population to polygon size rating for the country\",\n          \"apportionmentConfidence\" : \"Apportionment confidence for the country\",\n          \"HasData\" : \"Has data\",\n          \"C0477\" : \"2024 Educational Expenses\",\n          \"C0478\" : \"2024 Tuition Fees\",\n          \"C0479\" : \"2024 Public Elementary School\",\n          \"C0480\" : \"2024 Private Elementary School\",\n          \"C0481\" : \"2024 Public Junior High School\",\n          \"C0482\" : \"2024 Private Junior High School\",\n          \"C0483\" : \"2024 Public High School\",\n          \"C0484\" : \"2024 Private High School\",\n          \"C0485\" : \"2024 Public University\",\n          \"C0486\" : \"2024 Private University\",\n          \"C0487\" : \"2024 Preschool\",\n          \"C0488\" : \"2024 College\",\n          \"C0489\" : \"2024 Textbooks/Learning Materials\",\n          \"C0490\" : \"2024 Textbooks\",\n          \"C0491\" : \"2024 Learning Materials/References\",\n          \"C0492\" : \"2024 Supplementary Tutoring\",\n          \"C0493\" : \"2024 Preschool/Elementary School\",\n          \"C0494\" : \"2024 Junior High School\",\n          \"C0495\" : \"2024 High School/Prep School\"\n        },\n        \"spatialReference\" : {\n          \"wkid\" : 4326,\n          \"latestWkid\" : 4326\n        },\n        \"fields\" : [ {\n          \"name\" : \"ID\",\n          \"alias\" : \"Id\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"OBJECTID\",\n          \"alias\" : \"Object ID\",\n          \"type\" : \"esriFieldTypeOID\"\n        }, {\n          \"name\" : \"sourceCountry\",\n          \"alias\" : \"Country code\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"areaType\",\n          \"alias\" : \"Area type\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"bufferUnits\",\n          \"alias\" : \"Buffer units\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"bufferUnitsAlias\",\n          \"alias\" : \"Buffer units alias\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"bufferRadii\",\n          \"alias\" : \"Buffer radii\",\n          \"type\" : \"esriFieldTypeDouble\"\n        }, {\n          \"name\" : \"aggregationMethod\",\n          \"alias\" : \"Aggregation method\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"populationToPolygonSizeRating\",\n          \"alias\" : \"Population to polygon size rating for the country\",\n          \"type\" : \"esriFieldTypeDouble\"\n        }, {\n          \"name\" : \"apportionmentConfidence\",\n          \"alias\" : \"Apportionment confidence for the country\",\n          \"type\" : \"esriFieldTypeDouble\"\n        }, {\n          \"name\" : \"HasData\",\n          \"alias\" : \"Has data\",\n          \"type\" : \"esriFieldTypeInteger\"\n        }, {\n          \"name\" : \"C0477\",\n          \"alias\" : \"2024 Educational Expenses\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0477\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0478\",\n          \"alias\" : \"2024 Tuition Fees\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0478\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0479\",\n          \"alias\" : \"2024 Public Elementary School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0479\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0480\",\n          \"alias\" : \"2024 Private Elementary School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0480\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0481\",\n          \"alias\" : \"2024 Public Junior High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0481\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0482\",\n          \"alias\" : \"2024 Private Junior High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0482\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0483\",\n          \"alias\" : \"2024 Public High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0483\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0484\",\n          \"alias\" : \"2024 Private High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0484\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0485\",\n          \"alias\" : \"2024 Public University\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0485\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0486\",\n          \"alias\" : \"2024 Private University\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0486\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0487\",\n          \"alias\" : \"2024 Preschool\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0487\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0488\",\n          \"alias\" : \"2024 College\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0488\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0489\",\n          \"alias\" : \"2024 Textbooks/Learning Materials\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0489\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0490\",\n          \"alias\" : \"2024 Textbooks\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0490\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0491\",\n          \"alias\" : \"2024 Learning Materials/References\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0491\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0492\",\n          \"alias\" : \"2024 Supplementary Tutoring\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0492\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0493\",\n          \"alias\" : \"2024 Preschool/Elementary School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0493\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0494\",\n          \"alias\" : \"2024 Junior High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0494\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0495\",\n          \"alias\" : \"2024 High School/Prep School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0495\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        } ],\n        \"features\" : [ {\n          \"attributes\" : {\n            \"ID\" : \"0\",\n            \"OBJECTID\" : 1,\n            \"sourceCountry\" : \"JP\",\n            \"areaType\" : \"RingBuffer\",\n            \"bufferUnits\" : \"esriMiles\",\n            \"bufferUnitsAlias\" : \"Miles\",\n            \"bufferRadii\" : 1,\n            \"aggregationMethod\" : \"BlockApportionment:JP.Blocks;PointsLayer:JP.BlockPoints\",\n            \"populationToPolygonSizeRating\" : -1,\n            \"apportionmentConfidence\" : -1,\n            \"HasData\" : 1,\n            \"C0477\" : 10599066714,\n            \"C0478\" : 7785435954,\n            \"C0479\" : 133161085,\n            \"C0480\" : 283314668,\n            \"C0481\" : 119494196,\n            \"C0482\" : 639883870,\n            \"C0483\" : 129106572,\n            \"C0484\" : 1490328983,\n            \"C0485\" : 341080061,\n            \"C0486\" : 3874336015,\n            \"C0487\" : 520344126,\n            \"C0488\" : 254477528,\n            \"C0489\" : 80179100,\n            \"C0490\" : 31433852,\n            \"C0491\" : 48745248,\n            \"C0492\" : 2731510533,\n            \"C0493\" : 1432928043,\n            \"C0494\" : 831038130,\n            \"C0495\" : 467544370\n          }\n        } ]\n      } ]\n    }\n  } ],\n  \"messages\" : [ ]\n}"
+clj꞉my-mini-clojure-project.core꞉> 
+; Syntax error compiling at (src/my_mini_clojure_project/core.clj:35:1).
+; Unable to resolve symbol: fetch-and-save-csv in this context
+clj꞉my-mini-clojure-project.core꞉> 
+; Syntax error compiling at (src/my_mini_clojure_project/core.clj:33:5).
+; Unable to resolve symbol: write-to-csv in this context
+clj꞉my-mini-clojure-project.core꞉> 
+; Syntax error compiling at (src/my_mini_clojure_project/core.clj:25:22).
+; No such namespace: io
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Syntax error compiling at (src/my_mini_clojure_project/core.clj:25:22).
+; No such namespace: io
+clj꞉my-mini-clojure-project.core꞉> 
+; Evaluating file: core.clj
+; 
+; Syntax error (FileNotFoundException) compiling at (src/my_mini_clojure_project/core.clj:1:1).
+; Could not locate clojure/data/csv__init.class, clojure/data/csv.clj or clojure/data/csv.cljc on classpath.
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉my-mini-clojure-project.core꞉> 
+; Evaluating file: core.clj
+; 
+; Syntax error (FileNotFoundException) compiling at (src/my_mini_clojure_project/core.clj:1:1).
+; Could not locate clojure/data/csv__init.class, clojure/data/csv.clj or clojure/data/csv.cljc on classpath.
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉my-mini-clojure-project.core꞉> 
+; Execution error (FileNotFoundException) at my-mini-clojure-project.core/eval13754$loading (form-init13133649436283139617.clj:1).
+; Could not locate clojure/data/csv__init.class, clojure/data/csv.clj or clojure/data/csv.cljc on classpath.
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Execution error (IllegalStateException) at my-mini-clojure-project.core/eval13759 (form-init13133649436283139617.clj:35).
+; Attempting to call unbound fn: #'my-mini-clojure-project.core/fetch-and-save-csv
+clj꞉my-mini-clojure-project.core꞉> 
+#function[my-mini-clojure-project.core/enrich-location]
+clj꞉my-mini-clojure-project.core꞉> 
+; Syntax error reading source at (REPL:8:1).
+; Invalid number: 3NKHt6i2urmWtqOuugvr9faDiVlBV_OxaWSwYOjj3NRM5KZ_eKBEDYL4JWGpuXjrwBiq83-gPvf5w3n1zQe6J7ydk8_3bnXoOYkzJvulU-yLgGwViyqDGKR3HGOyQq-w
+clj꞉my-mini-clojure-project.core꞉> 
+; Response: {:cached nil, :request-time 446, :repeatable? false, :protocol-version {:name HTTP, :major 1, :minor 1}, :streaming? true, :http-client #object[org.apache.http.impl.client.InternalHttpClient 0x6702150c org.apache.http.impl.client.InternalHttpClient@6702150c], :chunked? true, :reason-phrase , :headers {Content-Type text/plain;charset=UTF-8, X-Content-Type-Options nosniff, Strict-Transport-Security max-age=63072000, Connection close, Transfer-Encoding chunked, ETag "2065075898", Date Tue, 08 Oct 2024 18:27:26 GMT, Vary Origin, X-XSS-Protection 1; mode=block, Content-Language en}, :orig-content-encoding gzip, :status 200, :length -1, :body {
+;   "results" : [ {
+;     "paramName" : "GeoEnrichmentResult",
+;     "dataType" : "GeoEnrichmentResult",
+;     "value" : {
+;       "version" : "2.0",
+;       "FeatureSet" : [ {
+;         "displayFieldName" : "",
+;         "fieldAliases" : {
+;           "ID" : "Id",
+;           "OBJECTID" : "Object ID",
+;           "sourceCountry" : "Country code",
+;           "areaType" : "Area type",
+;           "bufferUnits" : "Buffer units",
+;           "bufferUnitsAlias" : "Buffer units alias",
+;           "bufferRadii" : "Buffer radii",
+;           "aggregationMethod" : "Aggregation method",
+;           "populationToPolygonSizeRating" : "Population to polygon size rating for the country",
+;           "apportionmentConfidence" : "Apportionment confidence for the country",
+;           "HasData" : "Has data",
+;           "C0477" : "2024 Educational Expenses",
+;           "C0478" : "2024 Tuition Fees",
+;           "C0479" : "2024 Public Elementary School",
+;           "C0480" : "2024 Private Elementary School",
+;           "C0481" : "2024 Public Junior High School",
+;           "C0482" : "2024 Private Junior High School",
+;           "C0483" : "2024 Public High School",
+;           "C0484" : "2024 Private High School",
+;           "C0485" : "2024 Public University",
+;           "C0486" : "2024 Private University",
+;           "C0487" : "2024 Preschool",
+;           "C0488" : "2024 College",
+;           "C0489" : "2024 Textbooks/Learning Materials",
+;           "C0490" : "2024 Textbooks",
+;           "C0491" : "2024 Learning Materials/References",
+;           "C0492" : "2024 Supplementary Tutoring",
+;           "C0493" : "2024 Preschool/Elementary School",
+;           "C0494" : "2024 Junior High School",
+;           "C0495" : "2024 High School/Prep School"
+;         },
+;         "spatialReference" : {
+;           "wkid" : 4326,
+;           "latestWkid" : 4326
+;         },
+;         "fields" : [ {
+;           "name" : "ID",
+;           "alias" : "Id",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "OBJECTID",
+;           "alias" : "Object ID",
+;           "type" : "esriFieldTypeOID"
+;         }, {
+;           "name" : "sourceCountry",
+;           "alias" : "Country code",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "areaType",
+;           "alias" : "Area type",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnits",
+;           "alias" : "Buffer units",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnitsAlias",
+;           "alias" : "Buffer units alias",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferRadii",
+;           "alias" : "Buffer radii",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "aggregationMethod",
+;           "alias" : "Aggregation method",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "populationToPolygonSizeRating",
+;           "alias" : "Population to polygon size rating for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "apportionmentConfidence",
+;           "alias" : "Apportionment confidence for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "HasData",
+;           "alias" : "Has data",
+;           "type" : "esriFieldTypeInteger"
+;         }, {
+;           "name" : "C0477",
+;           "alias" : "2024 Educational Expenses",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0477",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0478",
+;           "alias" : "2024 Tuition Fees",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0478",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0479",
+;           "alias" : "2024 Public Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0479",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0480",
+;           "alias" : "2024 Private Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0480",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0481",
+;           "alias" : "2024 Public Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0481",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0482",
+;           "alias" : "2024 Private Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0482",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0483",
+;           "alias" : "2024 Public High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0483",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0484",
+;           "alias" : "2024 Private High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0484",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0485",
+;           "alias" : "2024 Public University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0485",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0486",
+;           "alias" : "2024 Private University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0486",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0487",
+;           "alias" : "2024 Preschool",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0487",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0488",
+;           "alias" : "2024 College",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0488",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0489",
+;           "alias" : "2024 Textbooks/Learning Materials",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0489",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0490",
+;           "alias" : "2024 Textbooks",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0490",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0491",
+;           "alias" : "2024 Learning Materials/References",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0491",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0492",
+;           "alias" : "2024 Supplementary Tutoring",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0492",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0493",
+;           "alias" : "2024 Preschool/Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0493",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0494",
+;           "alias" : "2024 Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0494",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0495",
+;           "alias" : "2024 High School/Prep School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0495",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         } ],
+;         "features" : [ {
+;           "attributes" : {
+;             "ID" : "0",
+;             "OBJECTID" : 1,
+;             "sourceCountry" : "JP",
+;             "areaType" : "RingBuffer",
+;             "bufferUnits" : "esriMiles",
+;             "bufferUnitsAlias" : "Miles",
+;             "bufferRadii" : 1,
+;             "aggregationMethod" : "BlockApportionment:JP.Blocks;PointsLayer:JP.BlockPoints",
+;             "populationToPolygonSizeRating" : -1,
+;             "apportionmentConfidence" : -1,
+;             "HasData" : 1,
+;             "C0477" : 10599066714,
+;             "C0478" : 7785435954,
+;             "C0479" : 133161085,
+;             "C0480" : 283314668,
+;             "C0481" : 119494196,
+;             "C0482" : 639883870,
+;             "C0483" : 129106572,
+;             "C0484" : 1490328983,
+;             "C0485" : 341080061,
+;             "C0486" : 3874336015,
+;             "C0487" : 520344126,
+;             "C0488" : 254477528,
+;             "C0489" : 80179100,
+;             "C0490" : 31433852,
+;             "C0491" : 48745248,
+;             "C0492" : 2731510533,
+;             "C0493" : 1432928043,
+;             "C0494" : 831038130,
+;             "C0495" : 467544370
+;           }
+;         } ]
+;       } ]
+;     }
+;   } ],
+;   "messages" : [ ]
+; }, :trace-redirects []}
+; Body: {
+;   "results" : [ {
+;     "paramName" : "GeoEnrichmentResult",
+;     "dataType" : "GeoEnrichmentResult",
+;     "value" : {
+;       "version" : "2.0",
+;       "FeatureSet" : [ {
+;         "displayFieldName" : "",
+;         "fieldAliases" : {
+;           "ID" : "Id",
+;           "OBJECTID" : "Object ID",
+;           "sourceCountry" : "Country code",
+;           "areaType" : "Area type",
+;           "bufferUnits" : "Buffer units",
+;           "bufferUnitsAlias" : "Buffer units alias",
+;           "bufferRadii" : "Buffer radii",
+;           "aggregationMethod" : "Aggregation method",
+;           "populationToPolygonSizeRating" : "Population to polygon size rating for the country",
+;           "apportionmentConfidence" : "Apportionment confidence for the country",
+;           "HasData" : "Has data",
+;           "C0477" : "2024 Educational Expenses",
+;           "C0478" : "2024 Tuition Fees",
+;           "C0479" : "2024 Public Elementary School",
+;           "C0480" : "2024 Private Elementary School",
+;           "C0481" : "2024 Public Junior High School",
+;           "C0482" : "2024 Private Junior High School",
+;           "C0483" : "2024 Public High School",
+;           "C0484" : "2024 Private High School",
+;           "C0485" : "2024 Public University",
+;           "C0486" : "2024 Private University",
+;           "C0487" : "2024 Preschool",
+;           "C0488" : "2024 College",
+;           "C0489" : "2024 Textbooks/Learning Materials",
+;           "C0490" : "2024 Textbooks",
+;           "C0491" : "2024 Learning Materials/References",
+;           "C0492" : "2024 Supplementary Tutoring",
+;           "C0493" : "2024 Preschool/Elementary School",
+;           "C0494" : "2024 Junior High School",
+;           "C0495" : "2024 High School/Prep School"
+;         },
+;         "spatialReference" : {
+;           "wkid" : 4326,
+;           "latestWkid" : 4326
+;         },
+;         "fields" : [ {
+;           "name" : "ID",
+;           "alias" : "Id",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "OBJECTID",
+;           "alias" : "Object ID",
+;           "type" : "esriFieldTypeOID"
+;         }, {
+;           "name" : "sourceCountry",
+;           "alias" : "Country code",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "areaType",
+;           "alias" : "Area type",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnits",
+;           "alias" : "Buffer units",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnitsAlias",
+;           "alias" : "Buffer units alias",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferRadii",
+;           "alias" : "Buffer radii",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "aggregationMethod",
+;           "alias" : "Aggregation method",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "populationToPolygonSizeRating",
+;           "alias" : "Population to polygon size rating for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "apportionmentConfidence",
+;           "alias" : "Apportionment confidence for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "HasData",
+;           "alias" : "Has data",
+;           "type" : "esriFieldTypeInteger"
+;         }, {
+;           "name" : "C0477",
+;           "alias" : "2024 Educational Expenses",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0477",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0478",
+;           "alias" : "2024 Tuition Fees",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0478",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0479",
+;           "alias" : "2024 Public Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0479",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0480",
+;           "alias" : "2024 Private Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0480",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0481",
+;           "alias" : "2024 Public Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0481",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0482",
+;           "alias" : "2024 Private Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0482",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0483",
+;           "alias" : "2024 Public High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0483",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0484",
+;           "alias" : "2024 Private High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0484",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0485",
+;           "alias" : "2024 Public University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0485",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0486",
+;           "alias" : "2024 Private University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0486",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0487",
+;           "alias" : "2024 Preschool",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0487",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0488",
+;           "alias" : "2024 College",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0488",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0489",
+;           "alias" : "2024 Textbooks/Learning Materials",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0489",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0490",
+;           "alias" : "2024 Textbooks",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0490",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0491",
+;           "alias" : "2024 Learning Materials/References",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0491",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0492",
+;           "alias" : "2024 Supplementary Tutoring",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0492",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0493",
+;           "alias" : "2024 Preschool/Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0493",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0494",
+;           "alias" : "2024 Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0494",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0495",
+;           "alias" : "2024 High School/Prep School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0495",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         } ],
+;         "features" : [ {
+;           "attributes" : {
+;             "ID" : "0",
+;             "OBJECTID" : 1,
+;             "sourceCountry" : "JP",
+;             "areaType" : "RingBuffer",
+;             "bufferUnits" : "esriMiles",
+;             "bufferUnitsAlias" : "Miles",
+;             "bufferRadii" : 1,
+;             "aggregationMethod" : "BlockApportionment:JP.Blocks;PointsLayer:JP.BlockPoints",
+;             "populationToPolygonSizeRating" : -1,
+;             "apportionmentConfidence" : -1,
+;             "HasData" : 1,
+;             "C0477" : 10599066714,
+;             "C0478" : 7785435954,
+;             "C0479" : 133161085,
+;             "C0480" : 283314668,
+;             "C0481" : 119494196,
+;             "C0482" : 639883870,
+;             "C0483" : 129106572,
+;             "C0484" : 1490328983,
+;             "C0485" : 341080061,
+;             "C0486" : 3874336015,
+;             "C0487" : 520344126,
+;             "C0488" : 254477528,
+;             "C0489" : 80179100,
+;             "C0490" : 31433852,
+;             "C0491" : 48745248,
+;             "C0492" : 2731510533,
+;             "C0493" : 1432928043,
+;             "C0494" : 831038130,
+;             "C0495" : 467544370
+;           }
+;         } ]
+;       } ]
+;     }
+;   } ],
+;   "messages" : [ ]
+; }
+"{\n  \"results\" : [ {\n    \"paramName\" : \"GeoEnrichmentResult\",\n    \"dataType\" : \"GeoEnrichmentResult\",\n    \"value\" : {\n      \"version\" : \"2.0\",\n      \"FeatureSet\" : [ {\n        \"displayFieldName\" : \"\",\n        \"fieldAliases\" : {\n          \"ID\" : \"Id\",\n          \"OBJECTID\" : \"Object ID\",\n          \"sourceCountry\" : \"Country code\",\n          \"areaType\" : \"Area type\",\n          \"bufferUnits\" : \"Buffer units\",\n          \"bufferUnitsAlias\" : \"Buffer units alias\",\n          \"bufferRadii\" : \"Buffer radii\",\n          \"aggregationMethod\" : \"Aggregation method\",\n          \"populationToPolygonSizeRating\" : \"Population to polygon size rating for the country\",\n          \"apportionmentConfidence\" : \"Apportionment confidence for the country\",\n          \"HasData\" : \"Has data\",\n          \"C0477\" : \"2024 Educational Expenses\",\n          \"C0478\" : \"2024 Tuition Fees\",\n          \"C0479\" : \"2024 Public Elementary School\",\n          \"C0480\" : \"2024 Private Elementary School\",\n          \"C0481\" : \"2024 Public Junior High School\",\n          \"C0482\" : \"2024 Private Junior High School\",\n          \"C0483\" : \"2024 Public High School\",\n          \"C0484\" : \"2024 Private High School\",\n          \"C0485\" : \"2024 Public University\",\n          \"C0486\" : \"2024 Private University\",\n          \"C0487\" : \"2024 Preschool\",\n          \"C0488\" : \"2024 College\",\n          \"C0489\" : \"2024 Textbooks/Learning Materials\",\n          \"C0490\" : \"2024 Textbooks\",\n          \"C0491\" : \"2024 Learning Materials/References\",\n          \"C0492\" : \"2024 Supplementary Tutoring\",\n          \"C0493\" : \"2024 Preschool/Elementary School\",\n          \"C0494\" : \"2024 Junior High School\",\n          \"C0495\" : \"2024 High School/Prep School\"\n        },\n        \"spatialReference\" : {\n          \"wkid\" : 4326,\n          \"latestWkid\" : 4326\n        },\n        \"fields\" : [ {\n          \"name\" : \"ID\",\n          \"alias\" : \"Id\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"OBJECTID\",\n          \"alias\" : \"Object ID\",\n          \"type\" : \"esriFieldTypeOID\"\n        }, {\n          \"name\" : \"sourceCountry\",\n          \"alias\" : \"Country code\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"areaType\",\n          \"alias\" : \"Area type\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"bufferUnits\",\n          \"alias\" : \"Buffer units\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"bufferUnitsAlias\",\n          \"alias\" : \"Buffer units alias\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"bufferRadii\",\n          \"alias\" : \"Buffer radii\",\n          \"type\" : \"esriFieldTypeDouble\"\n        }, {\n          \"name\" : \"aggregationMethod\",\n          \"alias\" : \"Aggregation method\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"populationToPolygonSizeRating\",\n          \"alias\" : \"Population to polygon size rating for the country\",\n          \"type\" : \"esriFieldTypeDouble\"\n        }, {\n          \"name\" : \"apportionmentConfidence\",\n          \"alias\" : \"Apportionment confidence for the country\",\n          \"type\" : \"esriFieldTypeDouble\"\n        }, {\n          \"name\" : \"HasData\",\n          \"alias\" : \"Has data\",\n          \"type\" : \"esriFieldTypeInteger\"\n        }, {\n          \"name\" : \"C0477\",\n          \"alias\" : \"2024 Educational Expenses\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0477\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0478\",\n          \"alias\" : \"2024 Tuition Fees\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0478\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0479\",\n          \"alias\" : \"2024 Public Elementary School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0479\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0480\",\n          \"alias\" : \"2024 Private Elementary School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0480\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0481\",\n          \"alias\" : \"2024 Public Junior High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0481\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0482\",\n          \"alias\" : \"2024 Private Junior High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0482\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0483\",\n          \"alias\" : \"2024 Public High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0483\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0484\",\n          \"alias\" : \"2024 Private High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0484\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0485\",\n          \"alias\" : \"2024 Public University\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0485\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0486\",\n          \"alias\" : \"2024 Private University\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0486\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0487\",\n          \"alias\" : \"2024 Preschool\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0487\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0488\",\n          \"alias\" : \"2024 College\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0488\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0489\",\n          \"alias\" : \"2024 Textbooks/Learning Materials\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0489\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0490\",\n          \"alias\" : \"2024 Textbooks\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0490\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0491\",\n          \"alias\" : \"2024 Learning Materials/References\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0491\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0492\",\n          \"alias\" : \"2024 Supplementary Tutoring\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0492\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0493\",\n          \"alias\" : \"2024 Preschool/Elementary School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0493\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0494\",\n          \"alias\" : \"2024 Junior High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0494\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0495\",\n          \"alias\" : \"2024 High School/Prep School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0495\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        } ],\n        \"features\" : [ {\n          \"attributes\" : {\n            \"ID\" : \"0\",\n            \"OBJECTID\" : 1,\n            \"sourceCountry\" : \"JP\",\n            \"areaType\" : \"RingBuffer\",\n            \"bufferUnits\" : \"esriMiles\",\n            \"bufferUnitsAlias\" : \"Miles\",\n            \"bufferRadii\" : 1,\n            \"aggregationMethod\" : \"BlockApportionment:JP.Blocks;PointsLayer:JP.BlockPoints\",\n            \"populationToPolygonSizeRating\" : -1,\n            \"apportionmentConfidence\" : -1,\n            \"HasData\" : 1,\n            \"C0477\" : 10599066714,\n            \"C0478\" : 7785435954,\n            \"C0479\" : 133161085,\n            \"C0480\" : 283314668,\n            \"C0481\" : 119494196,\n            \"C0482\" : 639883870,\n            \"C0483\" : 129106572,\n            \"C0484\" : 1490328983,\n            \"C0485\" : 341080061,\n            \"C0486\" : 3874336015,\n            \"C0487\" : 520344126,\n            \"C0488\" : 254477528,\n            \"C0489\" : 80179100,\n            \"C0490\" : 31433852,\n            \"C0491\" : 48745248,\n            \"C0492\" : 2731510533,\n            \"C0493\" : 1432928043,\n            \"C0494\" : 831038130,\n            \"C0495\" : 467544370\n          }\n        } ]\n      } ]\n    }\n  } ],\n  \"messages\" : [ ]\n}"
+clj꞉my-mini-clojure-project.core꞉> 
+; Response: {:cached nil, :request-time 430, :repeatable? false, :protocol-version {:name HTTP, :major 1, :minor 1}, :streaming? true, :http-client #object[org.apache.http.impl.client.InternalHttpClient 0x4d27c443 org.apache.http.impl.client.InternalHttpClient@4d27c443], :chunked? true, :reason-phrase , :headers {Content-Type text/plain;charset=UTF-8, X-Content-Type-Options nosniff, Strict-Transport-Security max-age=63072000, Connection close, Transfer-Encoding chunked, ETag "1812004689", Date Tue, 08 Oct 2024 19:22:36 GMT, Vary Origin, X-XSS-Protection 1; mode=block, Content-Language en}, :orig-content-encoding gzip, :status 200, :length -1, :body {
+;   "results" : [ {
+;     "paramName" : "GeoEnrichmentResult",
+;     "dataType" : "GeoEnrichmentResult",
+;     "value" : {
+;       "version" : "2.0",
+;       "FeatureSet" : [ {
+;         "displayFieldName" : "",
+;         "fieldAliases" : {
+;           "ID" : "Id",
+;           "OBJECTID" : "Object ID",
+;           "sourceCountry" : "Country code",
+;           "areaType" : "Area type",
+;           "bufferUnits" : "Buffer units",
+;           "bufferUnitsAlias" : "Buffer units alias",
+;           "bufferRadii" : "Buffer radii",
+;           "aggregationMethod" : "Aggregation method",
+;           "populationToPolygonSizeRating" : "Population to polygon size rating for the country",
+;           "apportionmentConfidence" : "Apportionment confidence for the country",
+;           "HasData" : "Has data",
+;           "C0477" : "2024 Educational Expenses",
+;           "C0478" : "2024 Tuition Fees",
+;           "C0479" : "2024 Public Elementary School",
+;           "C0480" : "2024 Private Elementary School",
+;           "C0481" : "2024 Public Junior High School",
+;           "C0482" : "2024 Private Junior High School",
+;           "C0483" : "2024 Public High School",
+;           "C0484" : "2024 Private High School",
+;           "C0485" : "2024 Public University",
+;           "C0486" : "2024 Private University",
+;           "C0487" : "2024 Preschool",
+;           "C0488" : "2024 College",
+;           "C0489" : "2024 Textbooks/Learning Materials",
+;           "C0490" : "2024 Textbooks",
+;           "C0491" : "2024 Learning Materials/References",
+;           "C0492" : "2024 Supplementary Tutoring",
+;           "C0493" : "2024 Preschool/Elementary School",
+;           "C0494" : "2024 Junior High School",
+;           "C0495" : "2024 High School/Prep School"
+;         },
+;         "spatialReference" : {
+;           "wkid" : 4326,
+;           "latestWkid" : 4326
+;         },
+;         "fields" : [ {
+;           "name" : "ID",
+;           "alias" : "Id",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "OBJECTID",
+;           "alias" : "Object ID",
+;           "type" : "esriFieldTypeOID"
+;         }, {
+;           "name" : "sourceCountry",
+;           "alias" : "Country code",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "areaType",
+;           "alias" : "Area type",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnits",
+;           "alias" : "Buffer units",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnitsAlias",
+;           "alias" : "Buffer units alias",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferRadii",
+;           "alias" : "Buffer radii",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "aggregationMethod",
+;           "alias" : "Aggregation method",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "populationToPolygonSizeRating",
+;           "alias" : "Population to polygon size rating for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "apportionmentConfidence",
+;           "alias" : "Apportionment confidence for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "HasData",
+;           "alias" : "Has data",
+;           "type" : "esriFieldTypeInteger"
+;         }, {
+;           "name" : "C0477",
+;           "alias" : "2024 Educational Expenses",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0477",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0478",
+;           "alias" : "2024 Tuition Fees",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0478",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0479",
+;           "alias" : "2024 Public Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0479",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0480",
+;           "alias" : "2024 Private Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0480",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0481",
+;           "alias" : "2024 Public Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0481",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0482",
+;           "alias" : "2024 Private Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0482",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0483",
+;           "alias" : "2024 Public High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0483",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0484",
+;           "alias" : "2024 Private High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0484",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0485",
+;           "alias" : "2024 Public University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0485",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0486",
+;           "alias" : "2024 Private University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0486",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0487",
+;           "alias" : "2024 Preschool",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0487",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0488",
+;           "alias" : "2024 College",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0488",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0489",
+;           "alias" : "2024 Textbooks/Learning Materials",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0489",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0490",
+;           "alias" : "2024 Textbooks",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0490",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0491",
+;           "alias" : "2024 Learning Materials/References",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0491",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0492",
+;           "alias" : "2024 Supplementary Tutoring",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0492",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0493",
+;           "alias" : "2024 Preschool/Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0493",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0494",
+;           "alias" : "2024 Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0494",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0495",
+;           "alias" : "2024 High School/Prep School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0495",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         } ],
+;         "features" : [ {
+;           "attributes" : {
+;             "ID" : "0",
+;             "OBJECTID" : 1,
+;             "sourceCountry" : "JP",
+;             "areaType" : "RingBuffer",
+;             "bufferUnits" : "esriMiles",
+;             "bufferUnitsAlias" : "Miles",
+;             "bufferRadii" : 1,
+;             "aggregationMethod" : "BlockApportionment:JP.Blocks;PointsLayer:JP.BlockPoints",
+;             "populationToPolygonSizeRating" : -1,
+;             "apportionmentConfidence" : -1,
+;             "HasData" : 1,
+;             "C0477" : 10599066714,
+;             "C0478" : 7785435954,
+;             "C0479" : 133161085,
+;             "C0480" : 283314668,
+;             "C0481" : 119494196,
+;             "C0482" : 639883870,
+;             "C0483" : 129106572,
+;             "C0484" : 1490328983,
+;             "C0485" : 341080061,
+;             "C0486" : 3874336015,
+;             "C0487" : 520344126,
+;             "C0488" : 254477528,
+;             "C0489" : 80179100,
+;             "C0490" : 31433852,
+;             "C0491" : 48745248,
+;             "C0492" : 2731510533,
+;             "C0493" : 1432928043,
+;             "C0494" : 831038130,
+;             "C0495" : 467544370
+;           }
+;         } ]
+;       } ]
+;     }
+;   } ],
+;   "messages" : [ ]
+; }, :trace-redirects []}
+; Body: {
+;   "results" : [ {
+;     "paramName" : "GeoEnrichmentResult",
+;     "dataType" : "GeoEnrichmentResult",
+;     "value" : {
+;       "version" : "2.0",
+;       "FeatureSet" : [ {
+;         "displayFieldName" : "",
+;         "fieldAliases" : {
+;           "ID" : "Id",
+;           "OBJECTID" : "Object ID",
+;           "sourceCountry" : "Country code",
+;           "areaType" : "Area type",
+;           "bufferUnits" : "Buffer units",
+;           "bufferUnitsAlias" : "Buffer units alias",
+;           "bufferRadii" : "Buffer radii",
+;           "aggregationMethod" : "Aggregation method",
+;           "populationToPolygonSizeRating" : "Population to polygon size rating for the country",
+;           "apportionmentConfidence" : "Apportionment confidence for the country",
+;           "HasData" : "Has data",
+;           "C0477" : "2024 Educational Expenses",
+;           "C0478" : "2024 Tuition Fees",
+;           "C0479" : "2024 Public Elementary School",
+;           "C0480" : "2024 Private Elementary School",
+;           "C0481" : "2024 Public Junior High School",
+;           "C0482" : "2024 Private Junior High School",
+;           "C0483" : "2024 Public High School",
+;           "C0484" : "2024 Private High School",
+;           "C0485" : "2024 Public University",
+;           "C0486" : "2024 Private University",
+;           "C0487" : "2024 Preschool",
+;           "C0488" : "2024 College",
+;           "C0489" : "2024 Textbooks/Learning Materials",
+;           "C0490" : "2024 Textbooks",
+;           "C0491" : "2024 Learning Materials/References",
+;           "C0492" : "2024 Supplementary Tutoring",
+;           "C0493" : "2024 Preschool/Elementary School",
+;           "C0494" : "2024 Junior High School",
+;           "C0495" : "2024 High School/Prep School"
+;         },
+;         "spatialReference" : {
+;           "wkid" : 4326,
+;           "latestWkid" : 4326
+;         },
+;         "fields" : [ {
+;           "name" : "ID",
+;           "alias" : "Id",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "OBJECTID",
+;           "alias" : "Object ID",
+;           "type" : "esriFieldTypeOID"
+;         }, {
+;           "name" : "sourceCountry",
+;           "alias" : "Country code",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "areaType",
+;           "alias" : "Area type",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnits",
+;           "alias" : "Buffer units",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferUnitsAlias",
+;           "alias" : "Buffer units alias",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "bufferRadii",
+;           "alias" : "Buffer radii",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "aggregationMethod",
+;           "alias" : "Aggregation method",
+;           "type" : "esriFieldTypeString",
+;           "length" : 256
+;         }, {
+;           "name" : "populationToPolygonSizeRating",
+;           "alias" : "Population to polygon size rating for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "apportionmentConfidence",
+;           "alias" : "Apportionment confidence for the country",
+;           "type" : "esriFieldTypeDouble"
+;         }, {
+;           "name" : "HasData",
+;           "alias" : "Has data",
+;           "type" : "esriFieldTypeInteger"
+;         }, {
+;           "name" : "C0477",
+;           "alias" : "2024 Educational Expenses",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0477",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0478",
+;           "alias" : "2024 Tuition Fees",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0478",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0479",
+;           "alias" : "2024 Public Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0479",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0480",
+;           "alias" : "2024 Private Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0480",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0481",
+;           "alias" : "2024 Public Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0481",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0482",
+;           "alias" : "2024 Private Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0482",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0483",
+;           "alias" : "2024 Public High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0483",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0484",
+;           "alias" : "2024 Private High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0484",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0485",
+;           "alias" : "2024 Public University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0485",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0486",
+;           "alias" : "2024 Private University",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0486",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0487",
+;           "alias" : "2024 Preschool",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0487",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0488",
+;           "alias" : "2024 College",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0488",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0489",
+;           "alias" : "2024 Textbooks/Learning Materials",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0489",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0490",
+;           "alias" : "2024 Textbooks",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0490",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0491",
+;           "alias" : "2024 Learning Materials/References",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0491",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0492",
+;           "alias" : "2024 Supplementary Tutoring",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0492",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0493",
+;           "alias" : "2024 Preschool/Elementary School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0493",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0494",
+;           "alias" : "2024 Junior High School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0494",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         }, {
+;           "name" : "C0495",
+;           "alias" : "2024 High School/Prep School",
+;           "type" : "esriFieldTypeDouble",
+;           "fullName" : "EducationEsriJapan.C0495",
+;           "component" : "demographics",
+;           "decimals" : 0,
+;           "units" : "currency",
+;           "currency" : "¥"
+;         } ],
+;         "features" : [ {
+;           "attributes" : {
+;             "ID" : "0",
+;             "OBJECTID" : 1,
+;             "sourceCountry" : "JP",
+;             "areaType" : "RingBuffer",
+;             "bufferUnits" : "esriMiles",
+;             "bufferUnitsAlias" : "Miles",
+;             "bufferRadii" : 1,
+;             "aggregationMethod" : "BlockApportionment:JP.Blocks;PointsLayer:JP.BlockPoints",
+;             "populationToPolygonSizeRating" : -1,
+;             "apportionmentConfidence" : -1,
+;             "HasData" : 1,
+;             "C0477" : 10599066714,
+;             "C0478" : 7785435954,
+;             "C0479" : 133161085,
+;             "C0480" : 283314668,
+;             "C0481" : 119494196,
+;             "C0482" : 639883870,
+;             "C0483" : 129106572,
+;             "C0484" : 1490328983,
+;             "C0485" : 341080061,
+;             "C0486" : 3874336015,
+;             "C0487" : 520344126,
+;             "C0488" : 254477528,
+;             "C0489" : 80179100,
+;             "C0490" : 31433852,
+;             "C0491" : 48745248,
+;             "C0492" : 2731510533,
+;             "C0493" : 1432928043,
+;             "C0494" : 831038130,
+;             "C0495" : 467544370
+;           }
+;         } ]
+;       } ]
+;     }
+;   } ],
+;   "messages" : [ ]
+; }
+"{\n  \"results\" : [ {\n    \"paramName\" : \"GeoEnrichmentResult\",\n    \"dataType\" : \"GeoEnrichmentResult\",\n    \"value\" : {\n      \"version\" : \"2.0\",\n      \"FeatureSet\" : [ {\n        \"displayFieldName\" : \"\",\n        \"fieldAliases\" : {\n          \"ID\" : \"Id\",\n          \"OBJECTID\" : \"Object ID\",\n          \"sourceCountry\" : \"Country code\",\n          \"areaType\" : \"Area type\",\n          \"bufferUnits\" : \"Buffer units\",\n          \"bufferUnitsAlias\" : \"Buffer units alias\",\n          \"bufferRadii\" : \"Buffer radii\",\n          \"aggregationMethod\" : \"Aggregation method\",\n          \"populationToPolygonSizeRating\" : \"Population to polygon size rating for the country\",\n          \"apportionmentConfidence\" : \"Apportionment confidence for the country\",\n          \"HasData\" : \"Has data\",\n          \"C0477\" : \"2024 Educational Expenses\",\n          \"C0478\" : \"2024 Tuition Fees\",\n          \"C0479\" : \"2024 Public Elementary School\",\n          \"C0480\" : \"2024 Private Elementary School\",\n          \"C0481\" : \"2024 Public Junior High School\",\n          \"C0482\" : \"2024 Private Junior High School\",\n          \"C0483\" : \"2024 Public High School\",\n          \"C0484\" : \"2024 Private High School\",\n          \"C0485\" : \"2024 Public University\",\n          \"C0486\" : \"2024 Private University\",\n          \"C0487\" : \"2024 Preschool\",\n          \"C0488\" : \"2024 College\",\n          \"C0489\" : \"2024 Textbooks/Learning Materials\",\n          \"C0490\" : \"2024 Textbooks\",\n          \"C0491\" : \"2024 Learning Materials/References\",\n          \"C0492\" : \"2024 Supplementary Tutoring\",\n          \"C0493\" : \"2024 Preschool/Elementary School\",\n          \"C0494\" : \"2024 Junior High School\",\n          \"C0495\" : \"2024 High School/Prep School\"\n        },\n        \"spatialReference\" : {\n          \"wkid\" : 4326,\n          \"latestWkid\" : 4326\n        },\n        \"fields\" : [ {\n          \"name\" : \"ID\",\n          \"alias\" : \"Id\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"OBJECTID\",\n          \"alias\" : \"Object ID\",\n          \"type\" : \"esriFieldTypeOID\"\n        }, {\n          \"name\" : \"sourceCountry\",\n          \"alias\" : \"Country code\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"areaType\",\n          \"alias\" : \"Area type\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"bufferUnits\",\n          \"alias\" : \"Buffer units\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"bufferUnitsAlias\",\n          \"alias\" : \"Buffer units alias\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"bufferRadii\",\n          \"alias\" : \"Buffer radii\",\n          \"type\" : \"esriFieldTypeDouble\"\n        }, {\n          \"name\" : \"aggregationMethod\",\n          \"alias\" : \"Aggregation method\",\n          \"type\" : \"esriFieldTypeString\",\n          \"length\" : 256\n        }, {\n          \"name\" : \"populationToPolygonSizeRating\",\n          \"alias\" : \"Population to polygon size rating for the country\",\n          \"type\" : \"esriFieldTypeDouble\"\n        }, {\n          \"name\" : \"apportionmentConfidence\",\n          \"alias\" : \"Apportionment confidence for the country\",\n          \"type\" : \"esriFieldTypeDouble\"\n        }, {\n          \"name\" : \"HasData\",\n          \"alias\" : \"Has data\",\n          \"type\" : \"esriFieldTypeInteger\"\n        }, {\n          \"name\" : \"C0477\",\n          \"alias\" : \"2024 Educational Expenses\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0477\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0478\",\n          \"alias\" : \"2024 Tuition Fees\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0478\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0479\",\n          \"alias\" : \"2024 Public Elementary School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0479\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0480\",\n          \"alias\" : \"2024 Private Elementary School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0480\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0481\",\n          \"alias\" : \"2024 Public Junior High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0481\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0482\",\n          \"alias\" : \"2024 Private Junior High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0482\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0483\",\n          \"alias\" : \"2024 Public High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0483\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0484\",\n          \"alias\" : \"2024 Private High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0484\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0485\",\n          \"alias\" : \"2024 Public University\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0485\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0486\",\n          \"alias\" : \"2024 Private University\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0486\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0487\",\n          \"alias\" : \"2024 Preschool\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0487\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0488\",\n          \"alias\" : \"2024 College\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0488\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0489\",\n          \"alias\" : \"2024 Textbooks/Learning Materials\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0489\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0490\",\n          \"alias\" : \"2024 Textbooks\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0490\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0491\",\n          \"alias\" : \"2024 Learning Materials/References\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0491\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0492\",\n          \"alias\" : \"2024 Supplementary Tutoring\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0492\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0493\",\n          \"alias\" : \"2024 Preschool/Elementary School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0493\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0494\",\n          \"alias\" : \"2024 Junior High School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0494\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        }, {\n          \"name\" : \"C0495\",\n          \"alias\" : \"2024 High School/Prep School\",\n          \"type\" : \"esriFieldTypeDouble\",\n          \"fullName\" : \"EducationEsriJapan.C0495\",\n          \"component\" : \"demographics\",\n          \"decimals\" : 0,\n          \"units\" : \"currency\",\n          \"currency\" : \"¥\"\n        } ],\n        \"features\" : [ {\n          \"attributes\" : {\n            \"ID\" : \"0\",\n            \"OBJECTID\" : 1,\n            \"sourceCountry\" : \"JP\",\n            \"areaType\" : \"RingBuffer\",\n            \"bufferUnits\" : \"esriMiles\",\n            \"bufferUnitsAlias\" : \"Miles\",\n            \"bufferRadii\" : 1,\n            \"aggregationMethod\" : \"BlockApportionment:JP.Blocks;PointsLayer:JP.BlockPoints\",\n            \"populationToPolygonSizeRating\" : -1,\n            \"apportionmentConfidence\" : -1,\n            \"HasData\" : 1,\n            \"C0477\" : 10599066714,\n            \"C0478\" : 7785435954,\n            \"C0479\" : 133161085,\n            \"C0480\" : 283314668,\n            \"C0481\" : 119494196,\n            \"C0482\" : 639883870,\n            \"C0483\" : 129106572,\n            \"C0484\" : 1490328983,\n            \"C0485\" : 341080061,\n            \"C0486\" : 3874336015,\n            \"C0487\" : 520344126,\n            \"C0488\" : 254477528,\n            \"C0489\" : 80179100,\n            \"C0490\" : 31433852,\n            \"C0491\" : 48745248,\n            \"C0492\" : 2731510533,\n            \"C0493\" : 1432928043,\n            \"C0494\" : 831038130,\n            \"C0495\" : 467544370\n          }\n        } ]\n      } ]\n    }\n  } ],\n  \"messages\" : [ ]\n}"
+clj꞉my-mini-clojure-project.core꞉> 
+; Syntax error compiling at (project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+clj꞉user꞉> 
+; Syntax error compiling at (project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+clj꞉user꞉> 
+; Execution error (FileNotFoundException) at my-mini-clojure-project.core/eval13775$loading (form-init13133649436283139617.clj:1).
+; Could not locate clojure/data/csv__init.class, clojure/data/csv.clj or clojure/data/csv.cljc on classpath.
+clj꞉my-mini-clojure-project.core꞉> 
+; Execution error (FileNotFoundException) at my-mini-clojure-project.core/eval13781$loading (form-init13133649436283139617.clj:1).
+; Could not locate clojure/data/csv__init.class, clojure/data/csv.clj or clojure/data/csv.cljc on classpath.
+clj꞉my-mini-clojure-project.core꞉> 
+; Execution error (FileNotFoundException) at my-mini-clojure-project.core/eval13787$loading (form-init13133649436283139617.clj:1).
+; Could not locate clojure/data/csv__init.class, clojure/data/csv.clj or clojure/data/csv.cljc on classpath.
+clj꞉my-mini-clojure-project.core꞉> 
+; Execution error (FileNotFoundException) at my-mini-clojure-project.core/eval13793$loading (form-init13133649436283139617.clj:1).
+; Could not locate clojure/data/csv__init.class, clojure/data/csv.clj or clojure/data/csv.cljc on classpath.
+clj꞉my-mini-clojure-project.core꞉> 
+nil
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/access-token
+clj꞉my-mini-clojure-project.core꞉> 
+#'my-mini-clojure-project.core/enrich-location
+clj꞉my-mini-clojure-project.core꞉> 
+; Response: {:cached nil, :request-time 187, :repeatable? false, :protocol-version {:name HTTP, :major 1, :minor 1}, :streaming? true, :http-client #object[org.apache.http.impl.client.InternalHttpClient 0x1a001122 org.apache.http.impl.client.InternalHttpClient@1a001122], :chunked? false, :reason-phrase , :headers {Content-Type text/plain;charset=UTF-8, X-Content-Type-Options nosniff, Content-Length 107, Strict-Transport-Security max-age=63072000, Connection close, Date Thu, 10 Oct 2024 18:56:43 GMT, Vary Origin, X-XSS-Protection 1; mode=block}, :orig-content-encoding gzip, :status 200, :length 107, :body {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }, :trace-redirects []}
+; Body: {
+;   "error" : {
+;     "code" : 498,
+;     "message" : "Invalid token. (code = 498). [].",
+;     "details" : [ ]
+;   }
+; }
+"{\n  \"error\" : {\n    \"code\" : 498,\n    \"message\" : \"Invalid token. (code = 498). [].\",\n    \"details\" : [ ]\n  }\n}"
+clj꞉my-mini-clojure-project.core꞉> 
+; Syntax error compiling at (src/my_mini_clojure_project/core.clj:27:5).
+; No such var: csv/write-csv
+clj꞉my-mini-clojure-project.core꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/my_mini_clojure_project/core.clj:1:1).
+; ((:require [clj-http.client :as client] [cheshire.core :as json] [clojure.data/csv :as csv] [clojure.java.io :as io])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉my-mini-clojure-project.core꞉> 
+; Execution error (FileNotFoundException) at my-mini-clojure-project.core/eval13813$loading (form-init13133649436283139617.clj:1).
+; Could not locate clojure/data/csv__init.class, clojure/data/csv.clj or clojure/data/csv.cljc on classpath.
+clj꞉my-mini-clojure-project.core꞉> 
